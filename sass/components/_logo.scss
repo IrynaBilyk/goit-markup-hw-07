@@ -5,11 +5,16 @@ font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 margin-right: 94px;
-}
 
-.logo_theme_blue{
+&_theme_blue{
     color:var(--accent-color);
 }
-.logo_theme_black{
+&_theme_black{
     color:var(--logo-dark-color);
 }
+&_theme_white{
+    color:var(--logo-light-color);
+}
+}
+
+
